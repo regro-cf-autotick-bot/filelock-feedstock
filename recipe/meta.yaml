@@ -1,4 +1,4 @@
-{% set version = "4.2.4" %}
+{% set version = "4.2.5" %}
 
 package:
   name: filelock
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/f/filelock/filelock-{{ version }}.tar.gz
-  sha256: c6d8663535e1650ee430507b4ffbac7b464dd64b7647ea0112a9f406499d163d
+  sha256: 37d8fa4f8b5e9233612e68ab23bf64cae41771322c8797361088ae2895b12894
 
 build:
   noarch: python
